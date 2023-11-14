@@ -28,14 +28,3 @@ Une minuterie est présente pour chronométrer le temps de jeu et encourager les
 6. Classement
 Les scores des joueurs sont enregistrés dans le localStorage pour afficher un classement des meilleurs temps.
 
-## Conseils supplémentaires
-
-Ajoutez des animations pour le retournement des cartes afin d'améliorer l'expérience utilisateur.
-Encouragez les joueurs à terminer le jeu avec le moins de coups et dans le temps le plus court possible.
-Créez une interface utilisateur conviviale et réactive pour une meilleure expérience de jeu.
-Instructions d'utilisation
-Clonez ce dépôt sur votre machine locale.
-Ouvrez le fichier index.html dans un navigateur web.
-Jouez au Memory Game en cliquant sur les cartes pour trouver les paires correspondantes.
-Suivez votre nombre de coups et essayez de terminer le jeu dans le meilleur temps possible.
-Vos scores seront enregistrés localement et affichés dans le classement.
