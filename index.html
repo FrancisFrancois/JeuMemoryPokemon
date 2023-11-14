@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="sweetalert2.min.css">
+        <link rel ="icon" href ="./images/pokeball.png" type ="image/x-icon">
+        <title>Jeu Memory Pokemon</title>
+    </head>
+    <body>
+        <header>
+            <ul>
+                <li><a href=""><img class="image-pokeball" src="./images/pokeball.png" alt="pokeball"></a></li>
+                <li><a href=""><img class="image-logo" src="./images/Jeu-Memory-Pok-mon-06-07-2023 (1).png" alt="logo pokemon"></a></li>
+                <li><a href=""><img class="image-pokeball" src="./images/pokeball.png" alt="pokeball"></a></li>
+            </ul>
+        </header>
+        <section>
+            <div id="plateau">
+            </div>
+            <aside>
+                <input type="text" class="form" id="name" placeholder="Player Name" onblur="namePlayer()" />
+                <h1 id="playerName"></h1>
+                <h3><span class="caught-count">Nombres de Coups : 0</span></h3>
+                <h2 class="timer">0 secondes.</h2>
+                <button id="reset-button">Démarrer Jeu</button>
+                <button id="refresh-button">Reset Jeu</button>
+            </aside>
+        </section>
+        <div id="leaderboard" class="leaderboard"></div>
+        <footer>
+            <ul>
+              <li><a href="https://www.facebook.com/pokemongofrofficiel/?locale=fr_FR" target="_blank"><img src="./images/social-icon-facebook.svg" alt="image-facebook"></a></li>
+              <li><a href="https://www.instagram.com/pokemon/?hl=fr" target="_blank"><img src="./images/social-icon-instagram.svg" alt="image-instagram"></a></li>
+              <li><a href="https://twitter.com/" target="_blank" ><img src="./images/social-icon-twitter.svg" alt="image-twitter"></a></li>
+              <li><a href="https://www.linkedin.com/company/pokemon/" target="_blank"><img src="./images/social-icon-linkedin.svg" alt="image-linkedin"></a></li>
+            </ul>  
+            <br>
+            <p>Copyright © 2023 François Francis, Inc.</p>
+        </footer>
+    </body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</html>
