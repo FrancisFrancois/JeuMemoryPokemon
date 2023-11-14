@@ -1,14 +1,15 @@
-Memory Game
+####Memory Game
 Ce projet est un jeu de Memory réalisé en utilisant HTML, CSS et JavaScript. Les joueurs doivent retourner des cartes pour trouver les paires correspondantes.
 
-Objectifs d'apprentissage
+###Objectifs d'apprentissage
 Ce projet vise à développer les compétences suivantes :
 
 Utilisation du DOM pour créer et manipuler des éléments HTML
 Gestion des événements avec JavaScript
 Algorithme pour mélanger les cartes de manière aléatoire
 Utilisation du localStorage pour enregistrer et afficher les scores
-Fonctionnalités
+
+###Fonctionnalités
 1. Cartes mélangées
 Les cartes sont mélangées aléatoirement à chaque nouvelle partie.
 
@@ -27,7 +28,8 @@ Une minuterie est présente pour chronométrer le temps de jeu et encourager les
 6. Classement
 Les scores des joueurs sont enregistrés dans le localStorage pour afficher un classement des meilleurs temps.
 
-Conseils supplémentaires
+###Conseils supplémentaires
+
 Ajoutez des animations pour le retournement des cartes afin d'améliorer l'expérience utilisateur.
 Encouragez les joueurs à terminer le jeu avec le moins de coups et dans le temps le plus court possible.
 Créez une interface utilisateur conviviale et réactive pour une meilleure expérience de jeu.
